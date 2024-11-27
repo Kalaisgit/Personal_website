@@ -1,5 +1,9 @@
 .gradient-background {
+<<<<<<< HEAD
   background: linear-gradient(300deg, #006989, #e88d67, #f3f7ec);
+=======
+  background: linear-gradient(300deg, #d4ebf8, #1f509a, #0a3981);
+>>>>>>> 9f887e8 (Update in files)
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
@@ -25,14 +29,29 @@ h1 {
   color: #fcfdfd;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
+<<<<<<< HEAD
   font-family: "Sacramento", cursive;
+=======
+  font-family: "Doto", sans-serif;
+>>>>>>> 9f887e8 (Update in files)
   margin-bottom: 30px;
 }
 
 .para {
   color: #fcfdfd;
+<<<<<<< HEAD
   font-family: "Montserrat", sans-serif;
+=======
+  font-family: "Doto", sans-serif;
+>>>>>>> 9f887e8 (Update in files)
   font-size: 2.5rem;
   font-weight: normal;
   padding-bottom: 10px;
 }
+<<<<<<< HEAD
+=======
+
+body {
+  background-color: #d4ebf8;
+}
+>>>>>>> 9f887e8 (Update in files)

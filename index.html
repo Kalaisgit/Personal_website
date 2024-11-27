@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Portfolio</title>
@@ -10,13 +10,19 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Doto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <section id="title">
-      <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <div class="gradient-background text-secondary px-4 py-5 text-center">
         <div class="py-5">
-          <h1 class="display-5 fw-bold">Hey, I'm Kalai</h1>
+          <h1 class="display-5 fw-bold">Hey,I'm Kalai</h1>
           <div class="col-lg-6 mx-auto">
             <p class="fs-5 mb-4 para">An aspiring software developer</p>
             <a
@@ -52,19 +58,23 @@
               <h2 class="text-body-emphasis">About me</h2>
               <img
                 class="profile-img mt-3 mb-2"
-                src="./assets/images/WhatsApp Image 2024-06-22 at 3.57.58 PM.jpeg"
+                HEAD
+                src="./assets/images/Image.jpg"
                 alt="My image"
               />
+
               <p class="col-lg-8 mx-auto lead mt-2">
-                Greetings! I'm Kalaiselvan CK, embarking on an exciting journey
-                into software development. With 1 year and 5 months of industry
-                experience as a software engineer at a service-based company
-                behind me, I've returned from a refreshing career break of about
-                1 year, now actively sharpening my skills in Data Structures and
-                Algorithms (DSA). During this period, I've successfully tackled
-                250+ problems across renowned platforms such as Coding Ninjas,
-                LeetCode, and GeeksforGeeks. You can delve deeper into my coding
-                journey through my profiles linked below.
+                Greetings! I'm Kalaiselvan CK, a passionate software developer
+                specializing in PERN stack technologies. With 2 years and 5
+                months of collective experience in software engineering, I am
+                actively enhancing my skills in Data Structures and Algorithms
+                (DSA), and Full stack development. After my career break, I've
+                successfully tackled 250+ coding problems across renowned
+                platforms like Coding Ninjas, LeetCode, and GeeksforGeeks,
+                further honing my problem-solving abilities, developed several
+                projects using Full stack tech. Feel free to explore my coding
+                journey and achievements through the profiles linked below.
+                >>>>>>> 9f887e8 (Update in files)
               </p>
             </div>
           </div>
@@ -81,24 +91,26 @@
         >
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img
-                src="./assets/images/codingninjas.png"
-                class="d-block w-100"
-                alt="Coding Ninja"
-              />
+              <img src="./assets/images/kalai_cn.png" />
+              class="d-block w-100" alt="Coding Ninja" />
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/images/kalai_leetcode.png" />
+              class="d-block w-100" alt="Leetcode" />
             </div>
             <div class="carousel-item">
               <img
-                src="./assets/images/leetcode.png"
-                class="d-block w-100"
-                alt="Leetcode"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="./assets/images/gfg.png"
+                src="./assets/images/kalai_gfg.png"
                 class="d-block w-100"
                 alt="geeksforgeeks"
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="./assets/images/kalai_github.png"
+                class="d-block w-100"
+                alt="github"
               />
             </div>
           </div>
@@ -172,43 +184,28 @@
               <h3 class="text-body-emphasis">Skills</h3>
 
               <div class="container">
-                <div class="d-flex gap-2 justify-content-center p-4">
-                  <button
-                    class="btn btn-primary rounded-pill px-3"
-                    type="button"
+                <div class="d-flex flex-wrap gap-2 justify-content-center p-4">
+                  <span class="badge bg-primary px-3 py-2">React js</span>
+                  <span class="badge bg-secondary px-3 py-2"
+                    >Data Structures and Algorithms</span
                   >
-                    C++
-                  </button>
-                  <button
-                    class="btn btn-secondary rounded-pill px-3"
-                    type="button"
+                  <span class="badge bg-primary px-3 py-2">SQL</span>
+                  <span class="badge bg-secondary px-3 py-2">Node js</span>
+                  <span class="badge bg-primary px-3 py-2">RESTful API</span>
+                  <span class="badge bg-secondary px-3 py-2">JavaScript</span>
+                  <span class="badge bg-primary px-3 py-2"
+                    >Problem Solving</span
                   >
-                    Data Structures and Algorithms
-                  </button>
-                  <button
-                    class="btn btn-primary rounded-pill px-3"
-                    type="button"
+                  <span class="badge bg-secondary px-3 py-2">PostgreSQL</span>
+                  <span class="badge bg-primary px-3 py-2">Github/Git</span>
+                  <span class="badge bg-secondary px-3 py-2">Express js</span>
+                  <span class="badge bg-primary px-3 py-2">VS code</span>
+                  <span class="badge bg-secondary px-3 py-2"
+                    >API manual testing</span
                   >
-                    HTML 5
-                  </button>
-                  <button
-                    class="btn btn-secondary rounded-pill px-3"
-                    type="button"
-                  >
-                    CSS 3
-                  </button>
-                  <button
-                    class="btn btn-primary rounded-pill px-3"
-                    type="button"
-                  >
-                    Bootstrap
-                  </button>
-                  <button
-                    class="btn btn-secondary rounded-pill px-3"
-                    type="button"
-                  >
-                    Problem solving
-                  </button>
+                  <span class="badge bg-primary px-3 py-2">Postman</span>
+                  <span class="badge bg-secondary px-3 py-2">Bootstrap</span>
+                  <span class="badge bg-primary px-3 py-2">C++</span>
                 </div>
               </div>
             </div>
@@ -230,7 +227,7 @@
             </li>
             <li class="nav-item">
               <a
-                href="./public/about.html"
+                href="https://drive.google.com/file/d/1orfWDM7Uo4QiNw0W1TCTiJBOuTWlasrk/view?usp=sharing"
                 class="nav-link px-2 text-body-secondary"
                 >About</a
               >
