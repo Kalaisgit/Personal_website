@@ -29,14 +29,26 @@ h1 {
   margin-bottom: 30px;
 }
 
-.para {
+h5 {
   color: #fcfdfd;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: "Doto", sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.para {
+  color: #0a3981;
+  font-family: "Doto", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
   padding-bottom: 10px;
 }
 
 body {
   background-color: #d4ebf8;
+}
+
+.anchor {
+  text-decoration: underline;
 }
